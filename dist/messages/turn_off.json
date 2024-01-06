@@ -1,0 +1,10 @@
+{
+  "TURN_OFF": {
+    "msg": {
+        "cmd": "turn",
+        "data": {
+            "value": 0
+        }
+    }
+  }
+}

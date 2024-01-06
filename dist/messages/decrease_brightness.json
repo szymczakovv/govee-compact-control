@@ -1,0 +1,10 @@
+{
+  "DECREASE_BRIGHTNESS": {
+    "msg": {
+        "cmd": "brightness",
+        "data": {
+          "value": 0
+        }
+    }
+  }
+}
