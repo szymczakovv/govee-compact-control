@@ -41,5 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['C:\\Users\\nljgt\\Desktop\\Govee\\pythonProject\\assets\\logo.ico'],
+    icon=['logo.ico'],
 )
