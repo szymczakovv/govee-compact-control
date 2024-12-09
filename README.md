@@ -10,7 +10,7 @@ This application is designed as a part of the "OwnDeck" project, with its core f
 
 ## Finding Your Govee Device's IP Address
 
-To locate the local IP address of your Govee device, you can use tools like [Advanced IP Scanner](https://www.advanced-ip-scanner.com/pl/).
+To locate the local IP address of your Govee device, you can use tools like [Advanced IP Scanner](https://www.advanced-ip-scanner.com/).
 
 ## Status
 
