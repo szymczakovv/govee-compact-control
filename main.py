@@ -43,11 +43,11 @@ class Govee(Messages):
         self.messages = instance_messages.load_messages()
 
         super().__init__(path=self.messages_path)
-        (pystray.Icon("Govee Compact Control (by szymczakovv)", Image.open("assets/logo.png"),
-                      "Govee Compact Control (by szymczakovv)", (
-                          item('Włącz Pasek Led', self.turn_on),
-                          item('Wyłącz Pasek Led', self.turn_off),
-                          item('Wyłącz Aplikację', self.on_exit_app)
+        (pystray.Icon("Govee Compact Control", Image.open("assets/logo.png"),
+                      "Govee Compact Control", (
+                          item('Turn on', self.turn_on),
+                          item('Turn off', self.turn_off),
+                          item('Exit', self.on_exit_app)
                       ))).run()
 
     @staticmethod
@@ -90,7 +90,6 @@ class Govee(Messages):
             self.brightness += brightness_level
             self.messages["DECREASE_BRIGHTNESS"]["msg"]["data"]["value"] = self.brightness
             self.send_udp_command(self, self.messages["DECREASE_BRIGHTNESS"])
-            print(self.brightness)
 
         self.try_action("INCREASE_BRIGHTNESS", send_message)
 
