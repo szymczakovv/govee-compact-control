@@ -14,7 +14,7 @@ To locate the local IP address of your Govee device, you can use tools like [Adv
 
 ## Status
 
-This project is **no longer under active development**, but contributions are welcome! Feel free to fork the repository and modify it as needed.
+This project is **no longer under active development**, the first and last commit are from the first half of January 2024 and that's where the project stopped, but contributions are welcome! Feel free to fork the repository and modify it as needed.
 
 ---
 
